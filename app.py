@@ -31,7 +31,7 @@ app.layout = html.Div([
                 # Use row to 
                 dbc.Row(
                     [
-                        dbc.Col(html.Img(src= Image.open("v8.png"), height="125px"  ) ),
+                        dbc.Col(html.Img(src= Image.open("https://github.com/jeffshow121212/teste/v8.png"), height="125px"  ) ),
                         #dbc.Col(dbc.NavbarBrand("Navbar", className="ms-2")),
                     ],
                     
@@ -84,7 +84,7 @@ app.layout = html.Div([
 )
 def update_graph(EV, LPA,):
     
-    DF = pd.read_excel('appbase.xlsx')
+    DF = pd.read_excel('https://github.com/jeffshow121212/teste/appbase.xlsx')
     
     Begin_Date = '2023-05-02'
     EV_EBITDA = EV
