@@ -20,6 +20,8 @@ from PIL import Image
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.SIMPLEX] )
 
+server=app.server
+
 app.layout = html.Div([
    
    dbc.Navbar(
