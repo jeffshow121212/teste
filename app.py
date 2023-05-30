@@ -31,7 +31,7 @@ app.layout = html.Div([
                 # Use row to 
                 dbc.Row(
                     [
-                        dbc.Col(html.Img(src= Image.open("https://github.com/jeffshow121212/teste/v8.png"), height="125px"  ) ),
+                        dbc.Col(html.Img(src= Image.open("https://github.com/jeffshow121212/teste/blob/bdbe850bd1bf71c8eec8683d6ae86ba8fb225674/v8.png"), height="125px"  ) ),
                         #dbc.Col(dbc.NavbarBrand("Navbar", className="ms-2")),
                     ],
                     
