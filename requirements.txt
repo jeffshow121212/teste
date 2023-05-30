@@ -137,7 +137,7 @@ w3lib                       ==  2.1.1
 wcwidth==                       0.2.6
 webencodings==                  0.5.1
 websockets    ==                10.4
-Werkzeug        ==              2.3.4
+Werkzeug        ==              2.2.3
 wsproto           ==            1.2.0
 yahoo-fin           ==          0.8.9.1
 yahoo-finance   ==              1.4.0
